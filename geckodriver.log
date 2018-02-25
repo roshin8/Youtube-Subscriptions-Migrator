@@ -1,0 +1,65 @@
+1519556454604	geckodriver	INFO	Listening on 127.0.0.1:56322
+1519556455720	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519556465018	Marionette	INFO	Enabled via --marionette
+1519556472842	Marionette	INFO	Listening on port 37215
+1519556472952	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519556632078	geckodriver	INFO	Listening on 127.0.0.1:58216
+1519556633187	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519556633955	Marionette	INFO	Enabled via --marionette
+1519556636853	Marionette	INFO	Listening on port 36831
+1519556636916	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 4200, MediaPlayback #1] WARNING: Decoder=7f8400295000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-9j9NY8/firefox-58.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3365
+[Child 4200, MediaPlayback #2] WARNING: Decoder=7f8400295000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-9j9NY8/firefox-58.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3365
+[Child 4200, MediaPlayback #3] WARNING: Decoder=7f83f2c20800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<mozilla::MozPromise<RefPtr<mozilla::MediaTrackDemuxer::SamplesHolder>, mozilla::MediaResult, true> > mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file /build/firefox-9j9NY8/firefox-58.0.2+build1/dom/media/MediaDecoderStateMachine.cpp, line 3365
+1519556875119	geckodriver	INFO	Listening on 127.0.0.1:44984
+1519556876179	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519556877227	Marionette	INFO	Enabled via --marionette
+1519556880045	Marionette	INFO	Listening on port 39178
+1519556880100	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+JavaScript error: resource://devtools/shared/base-loader.js -> resource://devtools/server/actors/tab.js, line 1647: TypeError: can't access dead object
+1519557034853	geckodriver	INFO	Listening on 127.0.0.1:48931
+1519557035935	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519557036717	Marionette	INFO	Enabled via --marionette
+1519557039517	Marionette	INFO	Listening on port 40037
+1519557039550	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://accounts.google.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1519557189071	geckodriver	INFO	Listening on 127.0.0.1:33366
+1519557190133	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519557190936	Marionette	INFO	Enabled via --marionette
+1519557193934	Marionette	INFO	Listening on port 37902
+1519557193955	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519557266707	geckodriver	INFO	Listening on 127.0.0.1:42483
+1519557267771	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519557268643	Marionette	INFO	Enabled via --marionette
+[Parent 5180, Gecko_IOThread] WARNING: pipe error (84): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519557272019	Marionette	INFO	Listening on port 40583
+1519557272090	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 5411, Gecko_IOThread] WARNING: pipe error (98): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Parent 5411, Gecko_IOThread] WARNING: pipe error (116): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+1519558236790	geckodriver	INFO	Listening on 127.0.0.1:34763
+1519558237873	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519558238754	Marionette	INFO	Enabled via --marionette
+1519558241580	Marionette	INFO	Listening on port 33277
+1519558241600	Marionette	WARN	TLS certificate errors will be ignored for this session
+1519558543135	geckodriver	INFO	Listening on 127.0.0.1:45936
+1519558544227	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1519558545119	Marionette	INFO	Enabled via --marionette
+1519558548048	Marionette	INFO	Listening on port 44932
+1519558548149	Marionette	WARN	TLS certificate errors will be ignored for this session

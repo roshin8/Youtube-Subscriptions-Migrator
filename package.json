@@ -1,0 +1,24 @@
+{
+  "name": "youtube_subscriptions_migrator",
+  "version": "1.0.0",
+  "description": "Import YouTube Subscriptions from a RSS feed to a new channel",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "youtube",
+    "migrator",
+    "subscriptions",
+    "new",
+    "channel",
+    "rss",
+    "feed",
+    "import"
+  ],
+  "author": "Roshin Varghese",
+  "license": "ISC",
+  "dependencies": {
+    "xml2js": "^0.4.19"
+  }
+}
