@@ -50,7 +50,7 @@ def sign_in(driver):
     time.sleep(1)
 
     driver.find_element_by_css_selector('#password > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > input:nth-child(1)').send_keys(password)
-    driver.find_element_by_id('passwordNext').click()
+    driver.find_element_by_css_selector('#passwordNext > content:nth-child(3) > span:nth-child(1)').click()
     time.sleep(1)
 
 
@@ -77,7 +77,7 @@ def subscribe(driver, channel):
     channel_url = 'https://www.youtube.com/channel/' + channel.id
     driver.get(channel_url)
     time.sleep(1)
-    is_subscribed = True
+    is_subscribed = False
     try:
         button = driver.find_element_by_id('subscribe-button')
         is_subscribed = button.get_attribute('data-is-subscribed')
@@ -85,6 +85,7 @@ def subscribe(driver, channel):
             button.click()
     except:
         # Account has been terminated
+        is_subscribed = False
         pass
     print('{:.<50}{}'.format(channel.title, 'SKIPPED!' if is_subscribed else 'Done'))
     time.sleep(1)

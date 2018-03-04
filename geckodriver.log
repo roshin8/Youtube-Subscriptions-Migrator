@@ -63,3 +63,38 @@ console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is re
 1519558545119	Marionette	INFO	Enabled via --marionette
 1519558548048	Marionette	INFO	Listening on port 44932
 1519558548149	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520146826919	geckodriver	INFO	Listening on 127.0.0.1:54884
+1520146828270	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1520146847970	Marionette	INFO	Enabled via --marionette
+1520146863131	Marionette	INFO	Listening on port 34117
+1520146863272	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520147183242	geckodriver	INFO	Listening on 127.0.0.1:50125
+1520147184298	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1520147185494	Marionette	INFO	Enabled via --marionette
+1520147188692	Marionette	INFO	Listening on port 44146
+1520147188723	Marionette	WARN	TLS certificate errors will be ignored for this session
+1520147791292	geckodriver	INFO	Listening on 127.0.0.1:57184
+1520147792345	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1520147793065	Marionette	INFO	Enabled via --marionette
+1520147795879	Marionette	INFO	Listening on port 38546
+1520147795979	Marionette	WARN	TLS certificate errors will be ignored for this session
+Sandbox: Unexpected EOF, op 2 flags 00 path /dev/shm/org.chromium.T5wl3l
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 5040, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1520148090276	geckodriver	INFO	Listening on 127.0.0.1:59608
+1520148091328	geckodriver::marionette	INFO	Starting browser /usr/lib/firefox/firefox.sh with args ["-marionette"]
+1520148092050	Marionette	INFO	Enabled via --marionette
+1520148095340	Marionette	INFO	Listening on port 34725
+1520148095447	Marionette	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6438, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 6395, Chrome_ChildThread] WARNING: pipe error (35): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+[Child 6395, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[Child 6395, Chrome_ChildThread] WARNING: pipe error (3): Connection reset by peer: file /build/firefox-9j9NY8/firefox-58.0.2+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 353
+Sandbox: Unexpected EOF, op 0 flags 01101 path /tmp/GeckoChildCrash6395.extra
